@@ -1,0 +1,12 @@
+/* 일반 태그 선택자 */
+body {
+    background-color : beige;
+}
+h1{
+    background-color: skyblue;
+}
+p{
+    background-color: springgreen;
+}
+
+/*  */
