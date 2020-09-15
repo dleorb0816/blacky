@@ -10,7 +10,9 @@
             background-size: cover;
         } */
         body{
-            margin: 0;
+            /* 초기화 */
+            margin: 0; padding: 0;
+            box-sizing: border-box;
         }
         .bg1{
             height: 100vh;
@@ -27,11 +29,59 @@
             height: 100vh;
             background: linear-gradient(45deg, red, violet, yellow);
         }
+        .box {
+            width: 200px;
+            height:50px;
+            border: 2px solid white;
+            color: white;
+            text-align: center;
+            /* 디스플레이를 플렉스로 바꾸고, align-items 세로, justify-content 가로 */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .box2 {
+            width: 200px;
+            height:50px;
+            border: 2px solid white;
+            color: white;
+            text-align: center;
+            /* 디스플레이를 플렉스로 바꾸고, align-items 세로, justify-content 가로 */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .center1{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -25px;
+            margin-left: -100px;
+        }
+        .center2{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .center3{
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
     </style>
 </head>
 <body>
-    <div class="bg1"></div>
-    <div class="bg2"></div>
-    <div class="bg3"></div>
+    <div class="bg1">
+        <div class="box center2">정중앙으로</div>
+    </div>
+    <div class="bg2">
+        <div class="box2 center3"> 정중앙으로</div>
+    </div>
+    <div class="bg3">
+        <div class="box2 center3"> 정중앙으로</div>
+    </div>
 </body>
 </html>
