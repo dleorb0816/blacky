@@ -10,6 +10,17 @@
             margin: 10px;
 
         }
+        .container{
+            border: 5px solid #ffcc5c;
+            /* 부모태그에서 플렉스를 사용하면 자식 아이템들이 정렬 */
+            display: flex;
+            /* 가로정렬 justify content */
+            justify-content: flex-start;
+            /* height: 50vh; */
+            /* 세로정렬 align items */
+            /* align-items: flex-end; */
+            flex-wrap: wrap;
+        }
         .container div{
             padding: 10px;
             text-align: center;
@@ -37,17 +48,7 @@
             /* flex: 1;
             order: 2; */
         }
-        .container{
-            border: 5px solid #ffcc5c;
-            /* 부모태그에서 플렉스를 사용하면 자식 아이템들이 정렬 */
-            display: flex;
-            /* 가로정렬 justify content */
-            justify-content: flex-start;
-            /* height: 50vh; */
-            /* 세로정렬 align items */
-            /* align-items: flex-end; */
-            flex-wrap: wrap;
-        }
+      
     </style>
 </head>
 <body>
