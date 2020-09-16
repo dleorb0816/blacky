@@ -1,0 +1,121 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    
+}
+
+#main-page {
+    background: url(img/bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 80vh;
+}
+
+.main-navi{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0px 80px;
+}
+.main-navi .menu .item {
+    margin: 0 15px;
+}
+.main-navi .logo {
+    color:rgb(255,56,92);
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 10px 0;
+}
+
+.main-navi .logo i {
+    font-size: 40px;
+    position: relative;
+    top: 5px;
+}
+
+.main-navi .logo a{
+    text-decoration: none; 
+    color:rgb(255,56,92);
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 10px 0;
+}
+
+.main-navi .search .button {
+    height: 48px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border: 0.5px solid #ddd;
+    background-color: white;
+}
+
+.main-navi .search .button .rButton{
+    background-color:rgb(255,56,92);
+    border-radius: 50%;
+    padding: 5px 7px;
+    color: white;
+}
+.main-navi .search .button .rButton i{
+    font-size: 10px;
+}
+.main-navi .menu{
+    display: flex;
+    justify-content: space-between;
+    /* width: 25%; */
+}
+
+/* 두번째 섹션  pictures*/
+#picture {
+    padding: 0 80px;
+    margin: 100px 0;
+}
+#picture .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+#picture .item{
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.15) 0px 2px 8px ;
+}
+#picture .item img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* 세번째 세션 piture2 */
+#picture2{
+    background-color: black;
+}
+#picture2 .grid2 .h{
+    font-size: 30px;
+    color: white;
+}
+#picture2 .grid2 .h2{
+    font-size: 15px;
+    color: white;
+}
+
+#picture2 .grid2 {
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr 1fr;
+     gap:15px
+    
+}
+
+#picture2.item2:first-child {
+    grid-column-start: 1/3;
+}
