@@ -16,7 +16,7 @@ body{
 .main-navi{
     position: sticky;
     top: 0;
-    width: 100%;
+
     background-color: white;
     height: 80px;
   display: flex;
@@ -76,26 +76,52 @@ body{
     /* width: 25%; */
 }
 
-/* #first{
+#first{
     position: relative;
     top: 150px;
     left: 80px;
-} */
+    width: 30%;
+}
 .box {
     position: relative;
     top: 150px;
     left: 80px;
-    width: 397px;
+    width: 520px;
     height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: bold;
     /* border: 1px solid black; */
 }
 .box2{
     position: relative;
     top: 205px;
     left: 80px;
-    width: 397px;
+    width: 670px;
     height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: bold;
     /* border: 1px solid black; */
+}
+.near{
+    position: relative;
+    top: 225px;
+    left: 80px;
+    width: 180px;
+    height: 40px;
+
+    align-items: center;
+    
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    border: 1px solid white;
+}
+.box3 button:hover{
+    background-color: lightgray;
+    cursor: pointer;
 }
 .now{
     font-size: 26px;
@@ -119,7 +145,14 @@ body{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+.text{
+    padding: 15px;
+}
 
+.text .big{
+    font-weight: bold;
+    font-size: 20px;
+}
 /* 세번째 세션 piture2 */
 
 
@@ -129,23 +162,53 @@ body{
     display: block;
     color: white;
     padding: 0 80px;
-    
+    padding-bottom: 100px;
 }
 
-main{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 25rem;
-    align-items: center;
+.big4{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 50px 0px;
 }
+
+.big4 .big2 {
+    width: 400px;
+}
+
+.big4 .big2 .small3 {
+    font-size: 32px;
+    font-weight: bold;
+    width: 600px;
+}
+
+.small2{
+    padding-right: 20px;
+    font-size: 16px;
+    width: 445px;
+}
+.big4 button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .btn{
     background-color: black;
     border-color: white;
     color: white;
+    height: 30px;
     border-radius: 20px;
-    width: auto;
-    text-align: center;
-
+    
+    
+}
+.big4 button:hover{
+    background-color: gray;
+    cursor: pointer;
 }
 
 .picture2 .c2 {
@@ -156,6 +219,8 @@ main{
      border-radius: 20px;
        
 }
+
+
 .item2{
     background-color: rgba(128, 128, 128, 0.295);
     border-radius: 20px;
@@ -166,10 +231,15 @@ main{
     border-top-right-radius:20px ;
 }
 
-
-
-
-
+.item2 .t1{
+    /* padding: 3px; */
+    height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    width: 300px;
+    padding-left: 14px;
+    padding-top: 0px;
+}
 
 
 .item2:first-child{
@@ -181,3 +251,164 @@ main{
     grid-column: 3/5;
     grid-row: 2/3;
 }
+
+
+
+.under-menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column: 1fr 1fr 1fr;
+    /* justify-content: space-between; */
+    margin: 30px 80px;
+    font-size: 15px;
+    
+}
+.intro{
+    font-size: 14px;
+}
+.intro p {
+    color: black;
+    display: grid;
+    padding: 7px;
+}
+.intro h3{
+    color: black;
+    display: grid;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.intro a{
+    text-decoration: none;
+}
+
+.intro a :hover{
+    text-decoration: underline;
+}
+
+.com{
+    font-size: 14px;
+}
+.com p{
+    color: black;
+    display: grid;
+    padding: 7px;
+    font-size: 14px;
+}
+.com h3{
+    color: black;
+    display: grid;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.com a{
+    text-decoration: none;
+}
+
+.com a :hover{
+    text-decoration: underline;
+}
+
+.hosting{
+    font-size: 14px;
+}
+.hosting p{
+    display: grid;
+    padding: 7px;
+    color: black;
+}
+
+.hosting h3{
+    color: black;
+    display: grid;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.hosting a{
+    text-decoration: none;
+}
+
+.hosting a :hover{
+    text-decoration: underline;
+}
+
+.support{
+    font-size: 14px;
+}
+.support p{
+    display: grid;
+    padding: 7px;
+    color: black;
+}
+
+.support h3{
+    color: black;
+    display: grid;
+    padding: 5px;
+    font-size: 12px;
+}
+.support a{
+    text-decoration: none;
+}
+
+.support a :hover{
+    text-decoration: underline;
+}
+ .more-under{
+     margin: 30px 80px;
+     display: flex;
+    justify-content: space-between;
+     border-top: solid 1px gray;
+    
+ }
+ .footer{
+     margin-top: 30px;
+     display: flex;
+     justify-content: right;
+     width: 60%;    
+ }
+
+.private{
+ 
+    margin-left: 2%;
+    display: flex;
+}
+.private p{
+    margin-left: 10px;
+}
+
+.private a{
+    text-decoration: none;
+    color: black;
+}
+
+.private a :hover{
+    text-decoration: underline;
+    color: black;
+}
+ .footer2{
+    margin-top: 30px;
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+ }
+.kor{
+    width: 41%;
+}
+.sns{
+    width: 55%;
+}
+
+ .sns i, .img {
+     margin-left: 13px;
+ }
+
+
+ .kor a{
+     color:#222222;
+     width: 300px;
+ }
