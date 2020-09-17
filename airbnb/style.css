@@ -224,13 +224,18 @@ body{
 .item2{
     background-color: rgba(128, 128, 128, 0.295);
     border-radius: 20px;
+    /* height: 10px; */
 }
 
 .item2 img{
     border-top-left-radius:20px ;
     border-top-right-radius:20px ;
+    /* height: 100px; */
 }
 
+.item2 .img1{
+    height: 916px;
+}
 .item2 .t1{
     /* padding: 3px; */
     height: 50px;
