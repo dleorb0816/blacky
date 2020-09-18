@@ -1,5 +1,6 @@
 *{
     margin: 0; padding: 0;
+
     box-sizing: border-box;
 }
 body{
@@ -19,10 +20,10 @@ body{
 
     background-color: white;
     height: 80px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding:0px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 80px;
 }
 .main-navi .menu .item {
     margin: 0 15px;
@@ -73,7 +74,7 @@ body{
 .main-navi .menu{
     display: flex;
     justify-content: space-between;
-    /* width: 25%; */
+
 }
 
 #first{
@@ -91,7 +92,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-weight: bold;
-    /* border: 1px solid black; */
+
 }
 .box2{
     position: relative;
@@ -102,7 +103,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-weight: bold;
-    /* border: 1px solid black; */
+
 }
 .near{
     position: relative;
@@ -129,8 +130,8 @@ body{
 
 /* 두번째 섹션  pictures*/
 #picture {
-    padding: 0 80px;
-    margin: 100px 0;
+    padding: 0 153px;
+    margin: 27px 0;
 }
 #picture .grid {
     display: grid;
@@ -161,7 +162,7 @@ body{
     background-color: black;
     display: block;
     color: white;
-    padding: 0 80px;
+    padding: 0 146px;
     padding-bottom: 100px;
 }
 
@@ -224,20 +225,17 @@ body{
 .item2{
     background-color: rgba(128, 128, 128, 0.295);
     border-radius: 20px;
-    /* height: 10px; */
 }
 
 .item2 img{
     border-top-left-radius:20px ;
     border-top-right-radius:20px ;
-    /* height: 100px; */
 }
 
 .item2 .img1{
-    height: 916px;
+    height: 852px;
 }
 .item2 .t1{
-    /* padding: 3px; */
     height: 50px;
     font-weight: bold;
     font-size: 18px;
@@ -264,7 +262,7 @@ body{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column: 1fr 1fr 1fr;
     /* justify-content: space-between; */
-    margin: 30px 80px;
+    margin: 30px 149px;
     font-size: 15px;
     
 }
@@ -281,6 +279,7 @@ body{
     display: grid;
     padding: 5px;
     font-size: 12px;
+    font-weight: bold;
 }
 
 .intro a{
@@ -305,6 +304,7 @@ body{
     display: grid;
     padding: 5px;
     font-size: 12px;
+    font-weight: bold;
 }
 
 .com a{
@@ -329,6 +329,7 @@ body{
     display: grid;
     padding: 5px;
     font-size: 12px;
+    font-weight: bold;
 }
 
 .hosting a{
@@ -353,6 +354,7 @@ body{
     display: grid;
     padding: 5px;
     font-size: 12px;
+    font-weight: bold;
 }
 .support a{
     text-decoration: none;
@@ -362,7 +364,7 @@ body{
     text-decoration: underline;
 }
  .more-under{
-     margin: 30px 80px;
+     margin: 30px 149px;
      display: flex;
     justify-content: space-between;
      border-top: solid 1px gray;
@@ -417,3 +419,11 @@ body{
      color:#222222;
      width: 300px;
  }
+
+ .rights{
+     font-size: 14px;
+ }
+
+ .private{
+    font-size: 14px;     
+}
